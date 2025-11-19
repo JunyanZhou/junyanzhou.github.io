@@ -4,7 +4,7 @@ layout: homepage
 
 # About Me
 
-I am a Master of Science candidate in Duke Robotics.  
+I am a Master of Science candidate in [Duke Robotics](https://robotics.pratt.duke.edu/).  
 
 Nothing to present😟
 
