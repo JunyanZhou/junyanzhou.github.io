@@ -1,0 +1,28 @@
+# Basic Information
+title: Junyan Zhou
+position: Master of Science candidate
+affiliation: Duke University
+email: junyan.zhou (at) duke.edu
+# SEO
+keywords: junyan zhou, academic homepage, minimal light
+description: Academic homepage of Junyan Zhou.
+canonical: https://junyanzhou.github.io/
+
+# Links
+google_scholar: https://scholar.google.com/
+cv_link: assets/files/cv.pdf
+github_link: https://github.com/junyanzhou
+linkedin: https://www.linkedin.com/
+
+# Images
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Options
+enable_footnote: true
+auto_dark_mode: true
+font: "Serif" # or "Sans Serif"
+
+# Use minimal-light as remote theme
+remote_theme: yaoyao-liu/minimal-light
