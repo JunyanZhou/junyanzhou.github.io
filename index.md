@@ -11,18 +11,25 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 
 # Research Projects
 
-<!--  title & description & gif。 -->
+<!--  title & description & gif -->
 {% include research-project.html
-  title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling"
-  description="Short one-sentence description of the project."
+  title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling (ongoing)"
+  description=""
   gif="/assets/img/projects/demo_for_website.gif"
 %}
 
 # Course Projects
 
-<!--  title & description & gif。 -->
+<!--  title & description & gif -->
 {% include research-project.html
-  title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling"
-  description="Short one-sentence description of the project."
+  title="External-Support-Aware Humanoid Control for Whole-Body Manipulation (ongoing)"
+  description="Robot Manipulation by Prof. Xianyi Cheng"
   gif="/assets/img/projects/Ext-Supp-Awr.gif"
+%}
+
+<!--  title & description & gif -->
+{% include research-project.html
+  title="Desktop-Scale Bipedal Robot"
+  description="Robot Studio by Prof. Boyuan Chen. The highest walking speed and longest distance in the course's final competition🤣"
+  gif="/assets/img/projects/RobotDemo.gif"
 %}
