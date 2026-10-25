@@ -22,6 +22,63 @@
   }
 }
 
+.research-project {
+  display: grid;
+  grid-template-columns: minmax(160px, 30%) minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.project-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-placeholder {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  box-sizing: border-box;
+  border: 1px solid #dce2e8;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+  color: #647080;
+  font-size: 0.85rem;
+}
+
+.project-title {
+  margin: 0 0 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.project-details p {
+  margin: 0 0 0.65rem;
+}
+
+.project-details .project-links {
+  margin-bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .project-placeholder {
+    border-color: #434b58;
+    background-color: #272c36;
+    color: #b5bfcc;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .research-project {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem;
+  }
+}
+
 // Keep the theme's colors and typography, with a more readable scale.
 @media screen {
   html {
