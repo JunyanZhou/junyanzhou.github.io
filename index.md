@@ -4,7 +4,7 @@ layout: homepage
 
 # About Me
 
-I'm a Master of Science student @ [General Robotics Lab](https://generalroboticslab.com/), advised by Prof. [Boyuan Chen](https://generalroboticslab.com/director).
+I'm a Master of Science student @ [General Robotics Lab](https://generalroboticslab.com/) in [Duke Robotics](https://robotics.duke.edu/), advised by Prof. [Boyuan Chen](https://generalroboticslab.com/director).
 
 # Research Interests
 I'm interested in task-driven hardware and algorithm design to enable robust perception and adaptive physical interaction in real-world environments.
