@@ -1,0 +1,16 @@
+{% assign project_image = site.static_files | where: "path", include.gif | first %}
+<article class="research-project">
+  <div class="project-media">
+    {% if project_image %}
+    <img src="{{ include.gif | relative_url }}" alt="{{ include.title | escape }} demonstration" loading="lazy" decoding="async">
+    {% else %}
+    <div class="project-placeholder" role="img" aria-label="Project demonstration image placeholder">
+      <span>Project demo</span>
+    </div>
+    {% endif %}
+  </div>
+  <div class="project-details">
+    <h2 class="project-title">{{ include.title | escape }}</h2>
+    <p>{{ include.description | escape }}</p>
+  </div>
+</article>

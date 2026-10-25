@@ -1,6 +1,5 @@
 ---
 layout: homepage
-project_gif: /assets/img/projects/tactile-sensing.gif
 ---
 
 # About Me
@@ -22,23 +21,12 @@ A full list of publications will be available here in the future. -->
 
 # Research Projects
 
-{% assign project_image = site.static_files | where: "path", page.project_gif | first %}
-<article class="research-project">
-  <div class="project-media">
-    {% if project_image %}
-    <img src="{{ page.project_gif | relative_url }}" alt="Demonstration of geometry-robust tri-axis tactile sensing" loading="lazy" decoding="async">
-    {% else %}
-    <div class="project-placeholder" role="img" aria-label="Project demonstration image placeholder">
-      <span>Project demo</span>
-    </div>
-    {% endif %}
-  </div>
-  <div class="project-details">
-    <h2 class="project-title">Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling</h2>
-    <p>Short one-sentence description of the project.</p>
-    <p class="project-links"><a href="https://github.com/junyanzhou">Code</a> <span aria-hidden="true">&middot;</span> <a href="/">More details</a></p>
-  </div>
-</article>
+<!-- 只需修改 title（标题）、description（描述）和 gif（图片路径）。 -->
+{% include research-project.html
+  title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling"
+  description="Short one-sentence description of the project."
+  gif="/assets/img/projects/tactile-sensing.gif"
+%}
 
 <!-- # Contact
 
