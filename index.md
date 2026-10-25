@@ -13,7 +13,7 @@ I'm interested in task-driven hardware and algorithm design for the robotic syst
 <!--  title & description & gif -->
 {% include research-project.html
   title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling (ongoing)"
-  description=""
+  description="End-to-end development, Sensorimotor representation learning"
   gif="/assets/img/projects/demo_for_website.gif"
 %}
 
