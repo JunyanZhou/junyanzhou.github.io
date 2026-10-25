@@ -11,7 +11,7 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 
 # Research Projects
 
-<!-- 只需修改 title（标题）、description（描述）和 gif（图片路径）。 -->
+<!--  title & description & gif。 -->
 {% include research-project.html
   title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling"
   description="Short one-sentence description of the project."
@@ -20,7 +20,7 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 
 # Course Projects
 
-<!-- 只需修改 title（标题）、description（描述）和 gif（图片路径）。 -->
+<!--  title & description & gif。 -->
 {% include research-project.html
   title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling"
   description="Short one-sentence description of the project."
