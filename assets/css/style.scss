@@ -6,7 +6,7 @@
 // Keep the theme's colors and typography, with a more readable scale.
 @media screen {
   html {
-    font-size: 112.5%;
+    font-size: 125%;
   }
 
   body {
@@ -30,12 +30,12 @@
 @media screen and (min-width: 961px) {
   .wrapper {
     width: calc(100% - 64px);
-    max-width: 1120px;
+    max-width: 1240px;
   }
 
   header,
   footer {
-    width: 260px;
+    width: 280px;
   }
 
   header,
@@ -44,11 +44,11 @@
   }
 
   section {
-    width: calc(100% - 340px);
+    width: calc(100% - 360px);
   }
 
   .image.avatar img {
-    width: 128px;
+    width: 144px;
   }
 }
 
