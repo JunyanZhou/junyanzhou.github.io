@@ -1,0 +1,60 @@
+---
+---
+
+@import "minimal-light";
+
+// Keep the theme's colors and typography, with a more readable scale.
+@media screen {
+  html {
+    font-size: 112.5%;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 1.78rem;
+  }
+
+  small {
+    font-size: 0.75rem;
+  }
+
+  email {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .wrapper {
+    width: calc(100% - 64px);
+    max-width: 1120px;
+  }
+
+  header,
+  footer {
+    width: 260px;
+  }
+
+  header,
+  section {
+    padding-top: 48px;
+  }
+
+  section {
+    width: calc(100% - 340px);
+  }
+
+  .image.avatar img {
+    width: 128px;
+  }
+}
+
+// Retain the theme's single-column layout on tablets and phones.
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 106.25%;
+  }
+}
