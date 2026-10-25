@@ -3,6 +3,25 @@
 
 @import "minimal-light";
 
+// Match linked icons without adding a click target or hover animation.
+.social-icons .social-icon-static {
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin: 0 5px 0 0;
+  color: #043361;
+  text-align: center;
+  font-size: 1.15rem;
+  line-height: 2.5rem;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-icons .social-icon-static {
+    color: #3eb7f0;
+  }
+}
+
 // Keep the theme's colors and typography, with a more readable scale.
 @media screen {
   html {
