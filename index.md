@@ -17,15 +17,14 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
   gif="/assets/img/projects/demo_for_website.gif"
 %}
 
-# Course Projects
-
 <!--  title & description & gif -->
 {% include research-project.html
   title="External-Support-Aware Humanoid Control for Whole-Body Manipulation (ongoing)"
-  description="Robot Manipulation by Prof. Xianyi Cheng"
+  description="Contact-Constrained Optimization"
   gif="/assets/img/projects/Ext-Supp-Awr.gif"
 %}
 
+# Course Projects
 <!--  title & description & gif -->
 {% include research-project.html
   title="Desktop-Scale Bipedal Robot"
