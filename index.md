@@ -13,7 +13,7 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 <!--  title & description & gif -->
 {% include research-project.html
   title="Geometry-Robust Tri-Axis Tactile Sensing with Improved Signal Decoupling (ongoing)"
-  description="End-to-end sensor development, Sensorimotor representation learning"
+  description="End-to-end sensor development, Distillation-based sensorimotor representation learning"
   gif="/assets/img/projects/demo_for_website.gif"
 %}
 
