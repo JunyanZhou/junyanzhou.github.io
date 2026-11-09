@@ -11,6 +11,9 @@
   </div>
   <div class="project-details">
     <h2 class="project-title">{{ include.title | escape }}</h2>
+    {% if include.role %}
+    <p>{{ include.role | escape }}</p>
+    {% endif %}
     <p>{{ include.description | escape }}</p>
   </div>
 </article>

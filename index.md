@@ -21,9 +21,9 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 <!--  title & description & gif -->
 {% include research-project.html
   title="External-Support-Aware Humanoid Control for Whole-Body Manipulation (ongoing)"
-  description="Group Member"
-  description="Extended a pretrained humanoid RL controller with explicit pelvis, left-hand, and bilateral-foot targets for wall-supported reaching"
-  gif="/assets/img/projects/Ext-Supp-Awr_v2.gif"
+  role="Group Member"
+  description="Extended humanoid RL control for wall-supported reaching, halving pelvis and hand tracking errors while preserving single-leg foot reaching."
+  gif="/assets/img/projects/Ext-Supp_Awr_v2.gif"
 %}
 
 <!--  title & description & gif -->
