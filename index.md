@@ -21,8 +21,8 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 <!--  title & description & gif -->
 {% include research-project.html
   title="External-Support-Aware Humanoid Control for Whole-Body Manipulation (ongoing)"
-  role="Group Member"
-  description="Extended humanoid RL control for wall-supported reaching, halving pelvis and hand tracking errors while preserving single-leg foot reaching."
+  description="Group Member"
+  description="Extended a pretrained humanoid RL controller with pelvis, EE and feet targets "
   gif="/assets/img/projects/Ext-Supp_Awr_v2.gif"
 %}
 
@@ -32,3 +32,4 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
   description="Robot Studio by Prof. Boyuan Chen. The highest walking speed and longest distance in the course's final competition🤣"
   gif="/assets/img/projects/RobotStudio.gif"
 %}
+
