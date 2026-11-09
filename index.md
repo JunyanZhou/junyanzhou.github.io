@@ -30,5 +30,5 @@ I'm interested in task-driven hardware and algorithm design to enable robust per
 {% include research-project.html
   title="Desktop-Scale Bipedal Robot"
   description="Robot Studio by Prof. Boyuan Chen. The highest walking speed and longest distance in the course's final competition🤣"
-  gif="/assets/img/projects/RobotDemo.gif"
+  gif="/assets/img/projects/RobotStudio.gif"
 %}
